@@ -21,7 +21,7 @@ h1, h2{
 }
 
 #page-banner{
-    background: #ddf ;
+    background: #ff894f;
     padding: 10px 0;
 
 }
@@ -60,12 +60,12 @@ h1, h2{
 }
 
 #book-list li:hover{
-    border-color: #919;
+    border-color: #cb1f78;
 }
 
 .delete{
     float: right;
-    background: rgb(138, 18, 138);
+    background: #cb1f78;
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
@@ -73,7 +73,7 @@ h1, h2{
 }
 
 .delete:hover{
-    background: #333;
+    background: #8a128a;
 }
 
 #add-book{
@@ -95,7 +95,7 @@ h1, h2{
 
 #add-book button{
     border: 1px solid #9361bf;
-    background: #919;
+    background: #cb1f78;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;
@@ -107,6 +107,10 @@ h1, h2{
     margin: 20px 0;
     border-left: 0;
     color: white;
+}
+
+#add-book button:hover{
+    background: #8a128a;
 }
 
 #add-book:after{
